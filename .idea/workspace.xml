@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="461ae28b-6150-46c6-a359-092ab632b87d" name="Changes" comment="Config and extent report">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/bookmgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/test.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/bookstore/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-main/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Hooks/CucumberHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runner/CucumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/UserStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-PREPROD.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-PROD.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-UATB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookStoreFlow.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UserSignUpFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConfigManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentReportManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" />
+    <list default="true" id="461ae28b-6150-46c6-a359-092ab632b87d" name="Changes" comment="Added report and other file">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/UserStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/UserStepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,12 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748014697631</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added report and other file">
+      <option name="closed" value="true" />
+      <created>1748017759593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748017759593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pom updated" />
     <MESSAGE value="Config and extent report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config and extent report" />
+    <MESSAGE value="Added report and other file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added report and other file" />
   </component>
 </project>
