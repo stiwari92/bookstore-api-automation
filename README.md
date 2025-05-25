@@ -126,4 +126,4 @@ Export Postman collection for external use
 
 ## 👨‍💻 Contributors
 
-Suraj Tiwari – Automation Framework Developer, Quality Engineer
+Suraj Tiwari – Automation Framework Developer
