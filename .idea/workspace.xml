@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="461ae28b-6150-46c6-a359-092ab632b87d" name="Changes" comment="Added for pipeline">
+    <list default="true" id="461ae28b-6150-46c6-a359-092ab632b87d" name="Changes" comment="Changes in allure report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748018222807</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes in allure report">
+      <option name="closed" value="true" />
+      <created>1748160839520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748160839520</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +137,7 @@
     <MESSAGE value="Added report and other file" />
     <MESSAGE value="fixes in UserStepDefs.java" />
     <MESSAGE value="Added for pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added for pipeline" />
+    <MESSAGE value="Changes in allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in allure report" />
   </component>
 </project>
