@@ -19,7 +19,7 @@ This repository contains an automated testing framework for a FastAPI-based book
 ---
 
 ## 📁 Project Structure
-
+```
 bookstore-api-test
 ├── .github/                    # GitHub Actions workflow
 ├── bookstore-main/            # FastAPI backend server
@@ -52,7 +52,7 @@ bookstore-api-test
 │   └── ...
 ├── pom.xml                    # Maven configuration
 └── README.md                  # Project instructions
-
+```
 
 
 
@@ -75,42 +75,55 @@ bookstore-api-test
 
 git clone https://github.com/stiwari92/bookstore-api-automation
 cd bookstore-api-test
-2. Start the FastAPI Server: 
+
+### 2. Backend Server (Automated)
+
+No need to start the FastAPI server manually. It's launched automatically before the tests begin using Java ProcessBuilder.
+
+Example code:
+```java
+ProcessBuilder pb = new ProcessBuilder("uvicorn", "main:app", "--reload");
+pb.directory(new File("bookstore-main"));
+pb.redirectErrorStream(true);
+```
+
+### 3. Start the FastAPI Server:
 
     cd bookstore-main
 
     pip install -r requirements.txt
 
     uvicorn main:app --reload
-3. Run API Tests
+### 4. Run API Tests
 
-# Go to root directory
-mvn clean test
-📊 Generate Allure Reports
+    Go to root directory
+    mvn clean test
+## 📊 Generate Allure Reports
+After test execution
 
-# After test execution
-allure serve target/allure-results
+    allure serve target/allure-results
+
 👉 Ensure Allure is installed: Allure Installation Guide
 
-🔄 GitHub Actions
+## 🔄 GitHub Actions
 CI/CD pipeline is configured in .github/workflows/ for:
 
 Running tests on pull requests and pushes to main
 
 Publishing Allure Reports as build artifacts
 
-🔧 Configuration
+## 🔧 Configuration
 API base URL and other configs: ConfigLoader.java
 
 Endpoint paths/constants: EndPoints.java
 
-📌 Future Improvements
+## 📌 Future Improvements
 Add database validation layer
 
 Add contract testing with Swagger schema
 
 Export Postman collection for external use
 
-👨‍💻 Contributors
+## 👨‍💻 Contributors
 
 Suraj Tiwari – Automation Framework Developer
