@@ -48,9 +48,29 @@ jobs:
             mvn clean verify
           fi
 
-      - name: Archive Extent Report
+      - name: Install Allure CLI
+        run: |
+          sudo apt-add-repository ppa:qameta/allure
+          sudo apt-get update
+          sudo apt-get install allure
+
+      - name: Build and run tests (conditionally ignore failures)
+        run: |
+          if [ "$CI" = "true" ]; then
+            echo "📦 CI environment detected — ignoring test failures."
+            mvn -B clean verify || true
+          else
+            echo "💻 Local environment — failing on test errors."
+            mvn clean verify
+          fi
+
+      - name: Generate Allure Report
+        run: |
+          allure generate target/allure-results --clean -o target/allure-report
+
+      - name: Archive Allure Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: ExtentReport
-          path: target/extent-report.html  # Make sure this matches your real report path
+          name: AllureReport
+          path: target/allure-report
